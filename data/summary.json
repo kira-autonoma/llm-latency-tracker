@@ -1,0 +1,36 @@
+{
+  "2026-03-19": [
+    {
+      "model": "claude-3-5-haiku-20241022",
+      "provider": "anthropic",
+      "ttft_p50": null,
+      "total_p50": null,
+      "tokens_per_second": null,
+      "success_rate": 0
+    },
+    {
+      "model": "claude-3-7-sonnet-20250219",
+      "provider": "anthropic",
+      "ttft_p50": null,
+      "total_p50": null,
+      "tokens_per_second": null,
+      "success_rate": 0
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "provider": "gemini",
+      "ttft_p50": null,
+      "total_p50": null,
+      "tokens_per_second": null,
+      "success_rate": 0
+    },
+    {
+      "model": "gemini-2.5-pro-exp-03-25",
+      "provider": "gemini",
+      "ttft_p50": null,
+      "total_p50": null,
+      "tokens_per_second": null,
+      "success_rate": 0
+    }
+  ]
+}

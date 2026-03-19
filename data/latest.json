@@ -1,0 +1,51 @@
+{
+  "date": "2026-03-19",
+  "timestamp": "2026-03-19T00:36:52.265Z",
+  "vps_region": "eu-central (hetzner)",
+  "results": [
+    {
+      "model": "claude-3-5-haiku-20241022",
+      "provider": "anthropic",
+      "runs": 5,
+      "ttft_ms": null,
+      "total_ms": null,
+      "tokens_per_second": null,
+      "success_rate": 0,
+      "prompt": "Count from 1 to 20, one number per line.",
+      "error": "No API key"
+    },
+    {
+      "model": "claude-3-7-sonnet-20250219",
+      "provider": "anthropic",
+      "runs": 5,
+      "ttft_ms": null,
+      "total_ms": null,
+      "tokens_per_second": null,
+      "success_rate": 0,
+      "prompt": "Count from 1 to 20, one number per line.",
+      "error": "No API key"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "provider": "gemini",
+      "runs": 5,
+      "ttft_ms": null,
+      "total_ms": null,
+      "tokens_per_second": null,
+      "success_rate": 0,
+      "prompt": "Count from 1 to 20, one number per line.",
+      "error": "HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your p"
+    },
+    {
+      "model": "gemini-2.5-pro-exp-03-25",
+      "provider": "gemini",
+      "runs": 5,
+      "ttft_ms": null,
+      "total_ms": null,
+      "tokens_per_second": null,
+      "success_rate": 0,
+      "prompt": "Count from 1 to 20, one number per line.",
+      "error": "HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-2.5-pro-exp-03-25 is not found for API"
+    }
+  ]
+}
