@@ -1,62 +1,112 @@
 {
   "date": "2026-03-19",
-  "timestamp": "2026-03-19T06:17:02.783Z",
+  "timestamp": "2026-03-19T12:34:46.384Z",
   "vps_region": "eu-central (hetzner)",
   "results": [
     {
       "model": "claude-3-5-haiku-20241022",
       "provider": "anthropic",
       "runs": 5,
-      "ttft_ms": null,
-      "total_ms": null,
-      "tokens_per_second": null,
-      "success_rate": 0,
+      "ttft_ms": {
+        "p50": 1129,
+        "p95": 1502,
+        "min": 838,
+        "max": 1502
+      },
+      "total_ms": {
+        "p50": 1583,
+        "p95": 2274,
+        "min": 1376,
+        "max": 2274
+      },
+      "tokens_per_second": 28.1,
+      "success_rate": 1,
       "prompt": "Count from 1 to 20, one number per line.",
-      "error": "No OPENROUTER_API_KEY"
+      "error": null
     },
     {
       "model": "claude-3-7-sonnet-20250219",
       "provider": "anthropic",
       "runs": 5,
-      "ttft_ms": null,
-      "total_ms": null,
-      "tokens_per_second": null,
-      "success_rate": 0,
+      "ttft_ms": {
+        "p50": 837,
+        "p95": 1164,
+        "min": 605,
+        "max": 1164
+      },
+      "total_ms": {
+        "p50": 1274,
+        "p95": 1601,
+        "min": 1028,
+        "max": 1601
+      },
+      "tokens_per_second": 32.8,
+      "success_rate": 1,
       "prompt": "Count from 1 to 20, one number per line.",
-      "error": "No OPENROUTER_API_KEY"
+      "error": null
     },
     {
       "model": "gpt-4o-mini",
       "provider": "openai",
       "runs": 5,
-      "ttft_ms": null,
-      "total_ms": null,
-      "tokens_per_second": null,
-      "success_rate": 0,
+      "ttft_ms": {
+        "p50": 501,
+        "p95": 627,
+        "min": 424,
+        "max": 627
+      },
+      "total_ms": {
+        "p50": 1203,
+        "p95": 1579,
+        "min": 1123,
+        "max": 1579
+      },
+      "tokens_per_second": 36.6,
+      "success_rate": 1,
       "prompt": "Count from 1 to 20, one number per line.",
-      "error": "No OPENROUTER_API_KEY"
+      "error": null
     },
     {
       "model": "gemini-2.0-flash",
       "provider": "google",
       "runs": 5,
-      "ttft_ms": null,
-      "total_ms": null,
-      "tokens_per_second": null,
-      "success_rate": 0,
+      "ttft_ms": {
+        "p50": 536,
+        "p95": 627,
+        "min": 462,
+        "max": 627
+      },
+      "total_ms": {
+        "p50": 738,
+        "p95": 1305,
+        "min": 708,
+        "max": 1305
+      },
+      "tokens_per_second": 51.6,
+      "success_rate": 1,
       "prompt": "Count from 1 to 20, one number per line.",
-      "error": "No OPENROUTER_API_KEY"
+      "error": null
     },
     {
       "model": "llama-3.3-70b",
       "provider": "meta",
       "runs": 5,
-      "ttft_ms": null,
-      "total_ms": null,
-      "tokens_per_second": null,
-      "success_rate": 0,
+      "ttft_ms": {
+        "p50": 851,
+        "p95": 1121,
+        "min": 609,
+        "max": 1121
+      },
+      "total_ms": {
+        "p50": 1287,
+        "p95": 2248,
+        "min": 755,
+        "max": 2248
+      },
+      "tokens_per_second": 27.5,
+      "success_rate": 1,
       "prompt": "Count from 1 to 20, one number per line.",
-      "error": "No OPENROUTER_API_KEY"
+      "error": null
     }
   ]
 }
