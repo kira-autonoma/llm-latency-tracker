@@ -1,51 +1,112 @@
 {
   "date": "2026-03-19",
-  "timestamp": "2026-03-19T00:36:52.265Z",
+  "timestamp": "2026-03-19T00:40:12.194Z",
   "vps_region": "eu-central (hetzner)",
   "results": [
     {
       "model": "claude-3-5-haiku-20241022",
       "provider": "anthropic",
       "runs": 5,
-      "ttft_ms": null,
-      "total_ms": null,
-      "tokens_per_second": null,
-      "success_rate": 0,
+      "ttft_ms": {
+        "p50": 1256,
+        "p95": 1503,
+        "min": 913,
+        "max": 1503
+      },
+      "total_ms": {
+        "p50": 1710,
+        "p95": 1989,
+        "min": 1449,
+        "max": 1989
+      },
+      "tokens_per_second": 25.2,
+      "success_rate": 1,
       "prompt": "Count from 1 to 20, one number per line.",
-      "error": "No API key"
+      "error": null
     },
     {
       "model": "claude-3-7-sonnet-20250219",
       "provider": "anthropic",
       "runs": 5,
-      "ttft_ms": null,
-      "total_ms": null,
-      "tokens_per_second": null,
-      "success_rate": 0,
+      "ttft_ms": {
+        "p50": 1265,
+        "p95": 1399,
+        "min": 1123,
+        "max": 1399
+      },
+      "total_ms": {
+        "p50": 1700,
+        "p95": 1843,
+        "min": 1562,
+        "max": 1843
+      },
+      "tokens_per_second": 25.5,
+      "success_rate": 1,
       "prompt": "Count from 1 to 20, one number per line.",
-      "error": "No API key"
+      "error": null
+    },
+    {
+      "model": "gpt-4o-mini",
+      "provider": "openai",
+      "runs": 5,
+      "ttft_ms": {
+        "p50": 553,
+        "p95": 639,
+        "min": 507,
+        "max": 639
+      },
+      "total_ms": {
+        "p50": 1217,
+        "p95": 1290,
+        "min": 1088,
+        "max": 1290
+      },
+      "tokens_per_second": 44.9,
+      "success_rate": 1,
+      "prompt": "Count from 1 to 20, one number per line.",
+      "error": null
     },
     {
       "model": "gemini-2.0-flash",
-      "provider": "gemini",
+      "provider": "google",
       "runs": 5,
-      "ttft_ms": null,
-      "total_ms": null,
-      "tokens_per_second": null,
-      "success_rate": 0,
+      "ttft_ms": {
+        "p50": 498,
+        "p95": 974,
+        "min": 416,
+        "max": 974
+      },
+      "total_ms": {
+        "p50": 731,
+        "p95": 1263,
+        "min": 615,
+        "max": 1263
+      },
+      "tokens_per_second": 63.4,
+      "success_rate": 1,
       "prompt": "Count from 1 to 20, one number per line.",
-      "error": "HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your p"
+      "error": null
     },
     {
-      "model": "gemini-2.5-pro-exp-03-25",
-      "provider": "gemini",
+      "model": "llama-3.3-70b",
+      "provider": "meta",
       "runs": 5,
-      "ttft_ms": null,
-      "total_ms": null,
-      "tokens_per_second": null,
-      "success_rate": 0,
+      "ttft_ms": {
+        "p50": 858,
+        "p95": 2351,
+        "min": 204,
+        "max": 2351
+      },
+      "total_ms": {
+        "p50": 1935,
+        "p95": 3723,
+        "min": 457,
+        "max": 3723
+      },
+      "tokens_per_second": 19.3,
+      "success_rate": 1,
       "prompt": "Count from 1 to 20, one number per line.",
-      "error": "HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-2.5-pro-exp-03-25 is not found for API"
+      "error": null
     }
   ]
 }
