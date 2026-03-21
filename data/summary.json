@@ -87,41 +87,41 @@
     {
       "model": "claude-3-5-haiku-20241022",
       "provider": "anthropic",
-      "ttft_p50": 1137,
-      "total_p50": 1559,
-      "tokens_per_second": 29.8,
+      "ttft_p50": 901,
+      "total_p50": 1344,
+      "tokens_per_second": 32,
       "success_rate": 1
     },
     {
       "model": "claude-3-7-sonnet-20250219",
       "provider": "anthropic",
-      "ttft_p50": 1182,
-      "total_p50": 1624,
-      "tokens_per_second": 27.1,
+      "ttft_p50": 1212,
+      "total_p50": 1652,
+      "tokens_per_second": 25.8,
       "success_rate": 1
     },
     {
       "model": "gpt-4o-mini",
       "provider": "openai",
-      "ttft_p50": 425,
-      "total_p50": 1202,
-      "tokens_per_second": 36.5,
+      "ttft_p50": 403,
+      "total_p50": 1147,
+      "tokens_per_second": 41.7,
       "success_rate": 1
     },
     {
       "model": "gemini-2.0-flash",
       "provider": "google",
-      "ttft_p50": 439,
-      "total_p50": 664,
-      "tokens_per_second": 77.3,
+      "ttft_p50": 474,
+      "total_p50": 674,
+      "tokens_per_second": 71.2,
       "success_rate": 1
     },
     {
       "model": "llama-3.3-70b",
       "provider": "meta",
-      "ttft_p50": 1079,
-      "total_p50": 2174,
-      "tokens_per_second": 16.2,
+      "ttft_p50": 2217,
+      "total_p50": 2702,
+      "tokens_per_second": 8.4,
       "success_rate": 1
     }
   ]
