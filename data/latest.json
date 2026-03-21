@@ -1,6 +1,6 @@
 {
   "date": "2026-03-21",
-  "timestamp": "2026-03-21T04:17:02.685Z",
+  "timestamp": "2026-03-21T08:17:02.218Z",
   "vps_region": "eu-central (hetzner)",
   "results": [
     {
@@ -8,18 +8,18 @@
       "provider": "anthropic",
       "runs": 5,
       "ttft_ms": {
-        "p50": 821,
-        "p95": 1055,
-        "min": 743,
-        "max": 1055
+        "p50": 1137,
+        "p95": 1406,
+        "min": 733,
+        "max": 1406
       },
       "total_ms": {
-        "p50": 1251,
-        "p95": 1467,
-        "min": 1177,
-        "max": 1467
+        "p50": 1559,
+        "p95": 1859,
+        "min": 1158,
+        "max": 1859
       },
-      "tokens_per_second": 33.6,
+      "tokens_per_second": 29.8,
       "success_rate": 1,
       "prompt": "Count from 1 to 20, one number per line.",
       "error": null
@@ -29,18 +29,18 @@
       "provider": "anthropic",
       "runs": 5,
       "ttft_ms": {
-        "p50": 1227,
-        "p95": 2064,
-        "min": 635,
-        "max": 2064
+        "p50": 1182,
+        "p95": 1278,
+        "min": 710,
+        "max": 1278
       },
       "total_ms": {
-        "p50": 1699,
-        "p95": 2506,
-        "min": 1077,
-        "max": 2506
+        "p50": 1624,
+        "p95": 1877,
+        "min": 1140,
+        "max": 1877
       },
-      "tokens_per_second": 24.4,
+      "tokens_per_second": 27.1,
       "success_rate": 1,
       "prompt": "Count from 1 to 20, one number per line.",
       "error": null
@@ -50,18 +50,18 @@
       "provider": "openai",
       "runs": 5,
       "ttft_ms": {
-        "p50": 435,
-        "p95": 632,
-        "min": 416,
-        "max": 632
+        "p50": 425,
+        "p95": 568,
+        "min": 410,
+        "max": 568
       },
       "total_ms": {
-        "p50": 1447,
-        "p95": 2050,
-        "min": 1203,
-        "max": 2050
+        "p50": 1202,
+        "p95": 1675,
+        "min": 927,
+        "max": 1675
       },
-      "tokens_per_second": 33.7,
+      "tokens_per_second": 36.5,
       "success_rate": 1,
       "prompt": "Count from 1 to 20, one number per line.",
       "error": null
@@ -71,18 +71,18 @@
       "provider": "google",
       "runs": 5,
       "ttft_ms": {
-        "p50": 445,
-        "p95": 493,
-        "min": 370,
-        "max": 493
+        "p50": 439,
+        "p95": 610,
+        "min": 377,
+        "max": 610
       },
       "total_ms": {
-        "p50": 642,
-        "p95": 700,
-        "min": 610,
-        "max": 700
+        "p50": 664,
+        "p95": 699,
+        "min": 607,
+        "max": 699
       },
-      "tokens_per_second": 79.2,
+      "tokens_per_second": 77.3,
       "success_rate": 1,
       "prompt": "Count from 1 to 20, one number per line.",
       "error": null
@@ -92,18 +92,18 @@
       "provider": "meta",
       "runs": 5,
       "ttft_ms": {
-        "p50": 1486,
-        "p95": 7714,
-        "min": 780,
-        "max": 7714
+        "p50": 1079,
+        "p95": 3180,
+        "min": 455,
+        "max": 3180
       },
       "total_ms": {
-        "p50": 2339,
-        "p95": 16335,
-        "min": 811,
-        "max": 16335
+        "p50": 2174,
+        "p95": 4506,
+        "min": 1462,
+        "max": 4506
       },
-      "tokens_per_second": 8,
+      "tokens_per_second": 16.2,
       "success_rate": 1,
       "prompt": "Count from 1 to 20, one number per line.",
       "error": null
