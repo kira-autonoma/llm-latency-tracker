@@ -208,5 +208,47 @@
       "tokens_per_second": 17.5,
       "success_rate": 1
     }
+  ],
+  "2026-03-24": [
+    {
+      "model": "claude-3-5-haiku-20241022",
+      "provider": "anthropic",
+      "ttft_p50": 999,
+      "total_p50": 1564,
+      "tokens_per_second": 29.4,
+      "success_rate": 1
+    },
+    {
+      "model": "claude-3-7-sonnet-20250219",
+      "provider": "anthropic",
+      "ttft_p50": 1179,
+      "total_p50": 1627,
+      "tokens_per_second": 25.4,
+      "success_rate": 1
+    },
+    {
+      "model": "gpt-4o-mini",
+      "provider": "openai",
+      "ttft_p50": 475,
+      "total_p50": 1276,
+      "tokens_per_second": 44.8,
+      "success_rate": 1
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "provider": "google",
+      "ttft_p50": 489,
+      "total_p50": 751,
+      "tokens_per_second": 58.9,
+      "success_rate": 1
+    },
+    {
+      "model": "llama-3.3-70b",
+      "provider": "meta",
+      "ttft_p50": 749,
+      "total_p50": 1479,
+      "tokens_per_second": 31.1,
+      "success_rate": 1
+    }
   ]
 }
