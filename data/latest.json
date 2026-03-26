@@ -1,6 +1,6 @@
 {
   "date": "2026-03-26",
-  "timestamp": "2026-03-26T08:17:02.479Z",
+  "timestamp": "2026-03-26T12:17:02.770Z",
   "vps_region": "eu-central (hetzner)",
   "results": [
     {
@@ -8,18 +8,18 @@
       "provider": "anthropic",
       "runs": 5,
       "ttft_ms": {
-        "p50": 1412,
-        "p95": 1493,
-        "min": 1019,
-        "max": 1493
+        "p50": 1122,
+        "p95": 1371,
+        "min": 868,
+        "max": 1371
       },
       "total_ms": {
-        "p50": 1853,
-        "p95": 1951,
-        "min": 1570,
-        "max": 1951
+        "p50": 1776,
+        "p95": 2544,
+        "min": 1342,
+        "max": 2544
       },
-      "tokens_per_second": 26.6,
+      "tokens_per_second": 24,
       "success_rate": 1,
       "prompt": "Count from 1 to 20, one number per line.",
       "error": null
@@ -33,25 +33,25 @@
       "tokens_per_second": null,
       "success_rate": 0,
       "prompt": "Count from 1 to 20, one number per line.",
-      "error": "HTTP 402: {\"error\":{\"message\":\"This request requires more credits, or fewer max_tokens. You requested up to 256 tokens, but can only afford 196. To increase, visit https://openrouter.ai/settings/credits and upg"
+      "error": "HTTP 402: {\"error\":{\"message\":\"This request requires more credits, or fewer max_tokens. You requested up to 256 tokens, but can only afford 177. To increase, visit https://openrouter.ai/settings/credits and upg"
     },
     {
       "model": "gpt-4o-mini",
       "provider": "openai",
       "runs": 5,
       "ttft_ms": {
-        "p50": 489,
-        "p95": 696,
-        "min": 443,
-        "max": 696
+        "p50": 601,
+        "p95": 769,
+        "min": 474,
+        "max": 769
       },
       "total_ms": {
-        "p50": 1303,
-        "p95": 1472,
-        "min": 1026,
-        "max": 1472
+        "p50": 1503,
+        "p95": 1922,
+        "min": 1325,
+        "max": 1922
       },
-      "tokens_per_second": 38,
+      "tokens_per_second": 32.3,
       "success_rate": 1,
       "prompt": "Count from 1 to 20, one number per line.",
       "error": null
@@ -61,18 +61,18 @@
       "provider": "google",
       "runs": 5,
       "ttft_ms": {
-        "p50": 382,
-        "p95": 516,
-        "min": 360,
-        "max": 516
+        "p50": 732,
+        "p95": 1168,
+        "min": 504,
+        "max": 1168
       },
       "total_ms": {
-        "p50": 700,
-        "p95": 856,
-        "min": 606,
-        "max": 856
+        "p50": 1048,
+        "p95": 1406,
+        "min": 821,
+        "max": 1406
       },
-      "tokens_per_second": 77.8,
+      "tokens_per_second": 47.9,
       "success_rate": 1,
       "prompt": "Count from 1 to 20, one number per line.",
       "error": null
@@ -82,18 +82,18 @@
       "provider": "meta",
       "runs": 5,
       "ttft_ms": {
-        "p50": 837,
-        "p95": 5204,
-        "min": 640,
-        "max": 5204
+        "p50": 2527,
+        "p95": 5892,
+        "min": 175,
+        "max": 5892
       },
       "total_ms": {
-        "p50": 1349,
-        "p95": 13210,
-        "min": 1097,
-        "max": 13210
+        "p50": 3881,
+        "p95": 8640,
+        "min": 520,
+        "max": 8640
       },
-      "tokens_per_second": 9,
+      "tokens_per_second": 10.4,
       "success_rate": 1,
       "prompt": "Count from 1 to 20, one number per line.",
       "error": null
